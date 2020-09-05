@@ -1,0 +1,26 @@
+package br.com.smartpizza.command;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class CadastrarIngrediente implements Command {
+//	private IngredientaDAO igrDAO;
+	@Override
+	public String execute(HttpServletRequest request,HttpServletResponse response) {
+//		this.igrDAO = new IngredientaDAO();
+//		String proximo = "admin?acao=cadastrarSaborPizza";
+//		String[] ingredientes = request.getParameterValues("ingredientes");
+//		
+//		List<Ingrediente> listaIngred = new ArrayList<Ingrediente>();
+//		 for(String ing: ingredientes) {
+//			 Ingrediente ingrediente = new Ingrediente();
+//			 ingrediente.setDsIngrediente(ing);
+//			 ingrediente.setRequerido(true);
+//			 listaIngred.add(ingrediente);
+//			 igrDAO.insereIngredienteSabor(ingrediente);
+//		}
+//		
+		return "";
+	}
+
+}
